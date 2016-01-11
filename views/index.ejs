@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Meant Stack Tutorial</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
+		<script src="/javascripts/angular.min.js"></script>
+		<script src="/javascripts/angular-ui-router.min.js"></script>
+		<script src="/javascripts/flapper.js"></script>
+		<style>
+			.center-block {
+				float: none;
+			}
+		</style>
+	</head>
+		
+	<body ng-app="app">
+		
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<div class="navbar-brand">Flapper News</div>						
+					</div>
+					<ul class="nav navbar-nav pull-right">
+					</ul>
+				</div>
+			</nav>
+            
+		</header>
+		
+		<main>
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="col-md-5 center-block">
+                        
+                        <posts-directive></posts-directive>                        
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </main>
+        
+	</body>
+</html>
